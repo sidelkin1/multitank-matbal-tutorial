@@ -826,12 +826,12 @@ version = "0.3.3"
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 
 [[MultiTankMaterialBalance]]
-deps = ["AMD", "CSV", "DataFrames", "DataFramesMeta", "Dates", "LinearAlgebra", "LoopVectorization", "Metis", "Printf", "RecursiveFactorization", "SparseArrays", "StringEncodings", "SuiteSparse", "UnPack", "Underscores"]
-git-tree-sha1 = "12823ae8d58e2384498a6a994314898caf7da5e0"
+deps = ["AMD", "CSV", "DataFrames", "DataFramesMeta", "Dates", "FiniteDiff", "LinearAlgebra", "LoopVectorization", "Metis", "Printf", "RecursiveFactorization", "SparseArrays", "StringEncodings", "SuiteSparse", "UnPack", "Underscores"]
+git-tree-sha1 = "0f8c0bb693a4670e4c1f3aeabb75273879eede1e"
 repo-rev = "main"
 repo-url = "https://github.com/sidelkin1/MultiTankMaterialBalance.jl.git"
 uuid = "2e2feaf3-8cf3-4c62-867a-fb490429e538"
-version = "0.3.3"
+version = "0.3.4"
 
 [[MutableArithmetics]]
 deps = ["LinearAlgebra", "SparseArrays", "Test"]
@@ -929,9 +929,9 @@ version = "8.44.0+0"
 
 [[PDMats]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "ee26b350276c51697c9c2d88a072b339f9f03d73"
+git-tree-sha1 = "7e2166042d1698b6072352c74cfd1fca2a968253"
 uuid = "90014a1f-27ba-587c-ab20-58faa44d9150"
-version = "0.11.5"
+version = "0.11.6"
 
 [[PNGFiles]]
 deps = ["Base64", "CEnum", "ImageCore", "IndirectArrays", "OffsetArrays", "libpng_jll"]
@@ -1184,9 +1184,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[SpecialFunctions]]
 deps = ["ChainRulesCore", "IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_jll"]
-git-tree-sha1 = "85e5b185ed647b8ee89aa25a7788a2b43aa8a74f"
+git-tree-sha1 = "5ba658aeecaaf96923dce0da9e703bd1fe7666f9"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "2.1.3"
+version = "2.1.4"
 
 [[StackViews]]
 deps = ["OffsetArrays"]
