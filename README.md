@@ -1,47 +1,49 @@
 # multitank-matbal-tutorial
 
-Предназначен для лучшего понимания устройства и работы пакета [MultiTankMaterialBalance](https://github.com/sidelkin1/MultiTankMaterialBalance.jl).
+*Read this in other languages: [English](README.md), [Русский](README.ru.md)*
 
-## Быстрая установка
+Designed to better understand the structure and the implementation of the [MultiTankMaterialBalance] package (https://github.com/sidelkin1/MultiTankMaterialBalance.jl).
 
-Для работы требуется установка `Jupyter`. Проще всего это сделать, установив [Anaconda](https://www.anaconda.com/), следующим образом:
+## Quick installation
 
-- Скачайте программу для установки (https://www.anaconda.com/download/) и следуйте инструкции для вашей платформы.
+Requires `Jupyter` to work. The easiest way to do this is to install [Anaconda](https://www.anaconda.com/), as follows:
 
-- После установки поставьте галочку для добавления `Python` в переменную среды `PATH`.
+- Download the installer (https://www.anaconda.com/download/) and follow the instructions for your platform.
 
-Кроме того, должны быть установлены [Julia](http://julialang.org/downloads/) и [Git Bash](https://git-scm.com/downloads). Далее требуется
+- After installation, check the box to add `Python` to the `PATH` environment variable.
 
-- Скачать CLI репозиторий с помощью команды 
+Also, [Julia](http://julialang.org/downloads/) and [Git Bash](https://git-scm.com/downloads) must be installed. Further you require
+
+- Download repository using command
 
 ```
 git clone https://github.com/sidelkin1/multitank-matbal-tutorial
 ```
 
-- Запустить `Julia REPL` и выполнить команду
+- Start `Julia REPL` and run the command
 
 ```julia
 using Pkg; Pkg.add("IJulia")
 ```
 
-- Затем выполнить команду 
+- Next run the command
  
 ```julia
 pwd("path/to/multitank-matbal-tutorial")
 ```
 
-где требуется указать правильный путь к скачанному репозиторию
+where you need to specify the correct path to the downloaded repository.
 
-- Установить дополнительно требуемые пакеты через `Julia REPL` с помощью команды
+- Install additional required packages via `Julia REPL` with the command
  
 ```julia
 Pkg.activate("."); Pkg.instantiate()
 ```
 
-- Выполнить в терминале команду
+- Run command in terminal
 
 ```
 jupyter lab path/to/multitank-matbal-tutorial
 ```
 
-- В папке `tutorial` открыть тетрадку `tutorial.ipynb`
+- In the folder `tutorial` open the notebook `tutorial.ipynb`
