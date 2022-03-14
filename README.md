@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.md), [Русский](README.ru.md)*
 
-Designed to better understand the structure and the implementation of the [MultiTankMaterialBalance] package (https://github.com/sidelkin1/MultiTankMaterialBalance.jl).
+Designed to better understand the structure and the implementation of the [MultiTankMaterialBalance](https://github.com/sidelkin1/MultiTankMaterialBalance.jl) package.
 
 ## Quick installation
 
