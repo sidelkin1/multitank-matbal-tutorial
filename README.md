@@ -29,7 +29,7 @@ using Pkg; Pkg.add("IJulia")
 - Next run the command
  
 ```julia
-pwd("path/to/multitank-matbal-tutorial")
+cd("path/to/multitank-matbal-tutorial")
 ```
 
 where you need to specify the correct path to the downloaded repository.

@@ -29,7 +29,7 @@ using Pkg; Pkg.add("IJulia")
 - Затем выполнить команду 
  
 ```julia
-pwd("path/to/multitank-matbal-tutorial")
+cd("path/to/multitank-matbal-tutorial")
 ```
 
 где требуется указать правильный путь к скачанному репозиторию.
