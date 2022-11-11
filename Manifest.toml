@@ -1,5 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
+julia_version = "1.7.2"
 manifest_format = "2.0"
 
 [[deps.AMD]]
@@ -817,11 +818,11 @@ uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 
 [[deps.MultiTankMaterialBalance]]
 deps = ["AMD", "CSV", "DataFrames", "DataFramesMeta", "Dates", "LinearAlgebra", "LoopVectorization", "Metis", "Printf", "RecursiveFactorization", "SparseArrays", "StringEncodings", "SuiteSparse", "UnPack", "Underscores"]
-git-tree-sha1 = "a1785a4cb01f087643595afde92bfb643f21d8dd"
+git-tree-sha1 = "828fbe8c74f59594c2227255da330a5e78d539a6"
 repo-rev = "main"
-repo-url = "https://github.com/sidelkin1/MultiTankMaterialBalance.jl.git"
+repo-url = "https://github.com/sidelkin1/MultiTankMaterialBalance.jl"
 uuid = "2e2feaf3-8cf3-4c62-867a-fb490429e538"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.MutableArithmetics]]
 deps = ["LinearAlgebra", "SparseArrays", "Test"]
